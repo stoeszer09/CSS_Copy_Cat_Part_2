@@ -1,0 +1,115 @@
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+}
+.top-nav {
+    padding-top: 0.5em;
+    width: 30%;
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 0 1em;
+}
+#search {
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: auto;
+    border-radius: 24px;
+    justify-content: space-between;
+}
+#search li {
+    border-right: 1px solid gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+header > img {
+    width: 90%;
+    margin: auto;
+}
+h1, #flexible {
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: -3.5em;
+}
+#flexible {
+    display: block;
+    position: relative;
+    top: -7em;
+    width: auto;
+    margin: auto;
+    color: purple;
+    border: none;
+    border-radius: 25px;
+    padding: .7em 1em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em;
+}
+.top-section {
+    background-color: #F0F0F0;
+}
+#introducing {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0F0F0;
+}
+#introducing > p {
+    text-align: center;
+}
+#introducing-title {
+    font-size: 4em;
+}
+#shop {
+    width: 3em;
+}
+#gift-cards {
+    width: 40%;
+}
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.card {
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#card1 {
+    background-color: #CC2D4A;
+}
+#card2 {
+    background-color: #D93B30;
+}
+#card3 {
+    background-color: #BC1A6E;
+}
+#card4 {
+    background-color: #DE3151;
+}
+.card-button {
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
